@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Incidencia-logia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <ul>
+      <li><a href="page-acesso.html">Menu Principal</a></li>
+    </ul>
+    <h1 style="color: DodgerBlue;">Incidência-Logia</h1>
+    <h4>Imagens de Raio X</h4>
+    <div class="label-float">
+        <br>
+      
+      <h4>Bem Vindo (a):</h4>
+      <h4><b><input type="text" style="width: 350px; border: 0; background: #eeeeee; text-align: center;" name="nome" id="nome" disabled/></b></h4>
+      <h4 style="margin-left: 35px;">Matrícula: <input type="text" style="width: 100px; border: 0; background: #eeeeee; text-align: left;" name="matricula" id="matricula"/></h4>
+    
+    </div>
+   
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <link rel="stylesheet" href="estilo.css">
+        <h3 style="font-size: 1.5em">Cabeça</h3>
+        <img src="imagem/inicial/cabecainicial.jpg" width="255" height="255" class="img-responsive" alt="CABEÇA RAIO X">
+        <a style="margin-top: 20px" class="btn btn-primary" href="page-cabeca.HTML" role="button">Acessar</a>
+      </div>
+      <div class="col-sm-3">
+        <link rel="stylesheet" href="estilo.css">
+        <h3 style="font-size: 1.5em">Corpo</h3>
+        <img src="imagem/inicial/corpoinicial.jpg" width="255" height="255" class="img-responsive" alt="CORPO RAIO X">
+        <a style="margin-top: 20px" class="btn btn-primary" href="page-corpo.HTML" role"button"> Acessar </a>
+      </div>
+      <div class="col-sm-3">
+        <link rel="stylesheet" href="estilo.css">
+        <h3 style="font-size: 1.5em">Mão</h3>
+        <img src="imagem/inicial/maoinicial.jpg" width="255" height="255" class="img-responsive" alt="MÃO RAIO X">
+        <a style="margin-top: 20px" class="btn btn-primary" href="page-mao.HTML" role "button">Acessar</a>
+      </div>
+      <div class="col-sm-3">
+        <link rel="stylesheet" href="estilo.css">
+        <h3 style="font-size: 1.5em">Pé</h3>
+        <img src="imagem/inicial/peinicial.jpg" width="255" height="255" class="img-responsive" alt="PÉ RAIO X">
+        <a style="margin-top: 20px" class="btn btn-primary" href="page-pe.HTML" role "button">Acessar</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+<script>
+
+    var nomeAluno = "";
+    var matriculaAluno = "";
+
+    window.onload = function carregaDadosAluno(){
+      nomeAluno = sessionStorage.getItem('NomeAluno');
+      matriculaAluno = sessionStorage.getItem('MatriculaAluno');
+      nome.value = nomeAluno;
+      matricula.value = matriculaAluno;
+      console.log(nomeAluno);
+      console.log(matriculaAluno);
+    }
+    
+  
+</script>
+
+</html>
