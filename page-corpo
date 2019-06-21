@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Incidencia-logia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <ul>
+      <li><a href="page-principal.html">Inicio</a></li>
+      <li><a href="page-cabeca.html">Cabeça</a></li>
+      <li><a href="page-mao.html">Mão</a></li>
+      <li><a href="page-pe.html">Pé</a></li>
+    </ul>
+    <h1 style="color: DodgerBlue;">Corpo</h1>
+    <h4>Posições de Raio X</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <link rel="stylesheet" href="estilo.css">
+        <img src="imagem/corpo/pelve.jpg" width="255" height="255" class="rounded" alt="INCIDÊNCIA DE PELVE AP">
+        <h3>INCIDÊNCIA DE PELVE AP</h3>
+        <p>Paciente em DD e com os braços sobre o tórax, de forma confortável, com o plano mediossagital sobre a LCM,
+          membros estendidos e com uma pequena separação para rodá-los internamente cerca de 15° a 20°, para nelhor
+          alinhamento da pelve.</p>
+        <p>RC: perpendicular, incidindo para um ponto médio do fêmur.</p>
+        <p>Ch: 30x40, 35x35, ou 35x43 cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="imagem/corpo/pelveap.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE PELVE AP (POSIÇÃO DE RÃ) MÉTODO DE CLEAVES MODIFICADO">
+        <h3>INCIDÊNCIA DE PELVE AP (POSIÇÃO DE RÃ) MÉTODO DE CLEAVES MODIFICADO</h3>
+        <p>Paciente em DD e com os braços sobre o tórax, de forma confortável, com o plano mediossagital sobre a LCM.
+          Fletir ambos os menbros a 90°, unir a região plantar dos pés e abduzir por igual cerca de 40°, certificando-se
+          de que não haja rotação na pelve. </p>
+        <p>RC: Perpendicular, incidindo a 7,5cm abaixo da eias.</p>
+        <p>Ch: 30x40, 35x35, ou 35x43 cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="imagem/corpo/quadrilap.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE QUADRIL AP (HEMIPELVE)">
+        <h3>INCIDÊNCIA DE QUADRIL AP (HEMIPELVE)</h3>
+        <p>Paciente em DD, membros estendidos e braços sobre o tórax, de forma confortável. Alinha com a LCM o quadril a
+          ser radiografado. Fazer uma rotação medial com a perna de 15° a 20°.</p>
+        <p>RC: perpendicular, incidindo para a cabeça do fêmur.</p>
+        <p>Ch: 18x24, ou 24x30 cm, panorâmico, com buck, Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="imagem/corpo/sacro.jpg" width="255" height="255" class="rounded" alt="INCIDÊNCIA DE SACRO AXIAL AP">
+        <h3>INCIDÊNCIA DE SACRO AXIAL AP</h3>
+        <p>Paciente em DD. Alinhar a coluna sobre a LCM, de forma confortável. Certificar-se de que não haja rotação no
+          tronco e pelve.</p>
+        <p>RC: angulação de 15° cranial, incidindo nas eias.</p>
+        <p>Ch: 24x30cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <img class="img" src="imagem/corpo/articulacao.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DA ARTICULAÇÃO ESTERNOCLAVICULAR PA">
+        <h3>INCIDÊNCIA DA ARTICULAÇÃO ESTERNOCLAVICULAR PA</h3>
+        <p>Paciente em DV e com os braços acima da cabeça e a articulação esternoclavicular alinhada sobre a LCM.
+          Certificar-se de que não haja rotação na pelve e tronco do paciente.</p>
+        <p>RC: perpendicular, incidindo ao nível da T2.</p>
+        <p>Ch: 18x24 cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img class="img" src="imagem/corpo/costelas.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE COSTELAS OBLÍQUAS ANTERIOR E POSTERIOR">
+        <h3>INCIDÊNCIA DE COSTELAS OBLÍQUAS ANTERIOR E POSTERIOR</h3>
+        <p>Paciente em ortostático ou em DD. Fazer uma obliquidade de 45° com o paciente, anterior e posterior. Elevar o
+          queixo para evitar superposição e alinhar o PMS sobre a LCE, LCM.</p>
+        <p>RC: perpendicular, incidindo ao nível da T7.</p>
+        <p>Ch: 35x35cm ou 30x40 cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img class="img" src="imagem/corpo/cervical.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE COLUNA CERVICAL PERFIL">
+        <h3>INCIDÊNCIA DE COLUNA CERVICAL PERFIL</h3>
+        <p>Paciente em ortostático, de forma confortável, com o ombro apoiado no buck, vertical e em perfil absoluto.
+          Dar pesos por igual para paciente segurar a fim de se visualizar C7 e T1. Solicitar para que eleve o queixo.
+        </p>
+        <p>RC: perpendicular, ao nível de C4.</p>
+        <p>Ch: 18x24cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="img" class="col-sm-3">
+        <img src="imagem/corpo/colunaap.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE COLUNA TORÁCICA AP">
+        <h3>INCIDÊNCIA DE COLUNA TORÁCICA AP</h3>
+        <p>Paciente em DD ou ortostático, de forma confortável com os membros ao longo do corpo. Alinhar o PMS sobre a
+          LCM ou LCE. Certificar-se de que não haja rotação na cintura pélvica.</p>
+        <p>RC: perpendicular incidindo ao nível de T7.</p>
+        <p>Ch: 30x40cm, dividido longitudinalmente, com buck. Dfofi: 1m.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <img class="img" src="imagem/corpo/lombar.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE COLUNA LOMBAR PERFIL">
+        <h3>INCIDÊNCIA DE COLUNA LOMBAR PERFIL</h3>
+        <p>Paciente em DL, com os braços elevados e as mãos sob a orelha. Fletir os joelhos para melhor estabilidade.
+          Alinhar a coluna sobre a LCM. Certificar-se de que não haja rotação na pelve e tronco do paciente.</p>
+        <p>RC: perpendicular, incidindo ao nível de L3.</p>
+        <p>Ch: 30x40 cm, dividido longitudinalmente, com buck. Dfofi: 1m.</p>
+      </div>
+      <div class="col-sm-3">
+        <img class="img" src="imagem/corpo/abdome.jpg" width="255" height="255" class="rounded"
+          alt="INCIDÊNCIA DE ABDOME AP ORTOTÁTICO">
+        <h3>INCIDÊNCIA DE ABDOME AP ORTOTÁTICO</h3>
+        <p>Paciente em ortostático, de costas para estativa, com o queixo elevado e as pernas ligeiramente afastadas
+          para melhor estabilidade. Certificar-se de que não haja rotação do tronco e pelve. Alinhar o PMS sobre a LCE.
+        </p>
+        <p>RC: perpendicular, incidindo ao nível de L3.</p>
+        <p>Ch: 35x43 cm, panorâmico, com buck. Dfofi: 1m.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
