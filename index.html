@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Incidencia-logia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1 style="color: DodgerBlue;">Incidência-logia</h1>
+    <h4>Sistema para Radiologia</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="card" style="margin-left: 35%;">
+        <div class="card-header">
+          <link rel="stylesheet" href="estilo.css">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input style="width: 350px;" type="text" name="nome" class="form-control" id="nome">
+          </div>
+          <div class="form-group">
+            <label for="matricula">Matricula:</label>
+            <input style="width: 350px;" type="text" name="matricula" class="form-control" id="matricula">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input style="width: 350px;" type="email" name="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="SelectPeriodo">Selecione o seu período:</label>
+            <select style="width: 350px;" class="form-control" id="SelectPeriodo">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+          </div>
+          
+          <button style="margin-left: 33%; width: 100px;" type="submit" class="btn btn-primary"
+            onclick="acessaSistema();">Acessar</button>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
+
+<script language="JavaScript">
+  function validaCampos() {
+
+
+    if (nome.value === "") {
+      alert("Informe o Nome!");
+      document.getElementById("nome").focus();
+      return true;
+    }
+
+    if (matricula.value === "") {
+      alert("Informe a Matricula!");
+      document.getElementById("matricula").focus();
+      return true;
+    }
+
+    if (email.value === "") {
+      alert("Informe o seu Email!")
+      documento.getElementById("email").focus();
+      return true;
+    }
+
+  }
+
+  function acessaSistema() {
+
+    if (!validaCampos()) {
+      alert("Logado com sucesso!");
+      sessionStorage.clear();
+      sessionStorage.setItem('NomeAluno', nome.value);
+      sessionStorage.setItem('MatriculaAluno', matricula.value);
+      window.location.href = "page-principal.HTML";
+      //location.href="index.HTML";
+    }
+  }
+</script>
