@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align : center;
+  font-weight: bold;
+}
+
+h3 {
+  text-align : center;
+  font-size  : 1.20em;
+  color      : DodgerBlue;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+  color     : DodgerBlue;
+}
+
+p {
+  margin-top : 30px;
+  line-height: 1.5em;
+  font-size  : .95em;
+  text-align : left;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+ul {
+  margin    : 0;
+  padding   : 0;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display   : inline-block;
+}
+
+li a {
+  text-decoration : none;
+  background-color: #09c;
+  margin-bottom   : 1px;
+  padding         : 5px 15px;
+  color           : #FFF;
+}
+
+li a:hover {
+  background-color: #6CF;
+}
